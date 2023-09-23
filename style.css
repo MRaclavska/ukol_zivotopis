@@ -1,6 +1,6 @@
 body {
     color: #282425;
-    background-color: #fff1e6;
+    background-color: #ffff;
     font-family: 'Maven Pro', sans-serif;
     font-size: 20px;
     line-height: 1.5;
@@ -8,10 +8,18 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 90px;
+    color: white;
+    margin: 0;
+    padding-left: 60px;
+    text-shadow: 0 5px 14px #1d3b63;
 }
 
 h2 {
+    font-size: 70px;
+}
+
+h3 {
     font-size: 30px;
 }
 
@@ -19,4 +27,49 @@ h2 {
     background-color: #1d3b63;
     color: white;
     text-align: center;
+    padding: 20px;
+}
+
+.fotogalerie-grafik,
+.fotogalerie-kritik,
+.fotogalerie-DIYer {
+    width: 30%;
+}
+
+.foto-grafik {
+    width: 400px;
+}
+
+.foto-kritik,
+.foto-DIYer {
+    width: 400px;
+}
+
+.foto-kontakt {
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 30px 30px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    padding: 80px;
+}
+
+.hlavicka {
+    background-image: url(pictures/sekce_uvod/2.png);
+    padding: 150px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+#ikony {
+    width: 100px;
+    display: flex;
+    margin: 20px;
 }
