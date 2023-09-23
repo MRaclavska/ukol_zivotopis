@@ -8,23 +8,33 @@ body {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 80px;
+    padding: 0 0 20px 260px;
     color: white;
     margin: 0;
-    padding-left: 60px;
-    text-shadow: 0 5px 14px #1d3b63;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
 }
 
 h2 {
     font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 50px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .paticka {
-    background-color: #1d3b63;
+    background-color: #027ac1;
     color: white;
     text-align: center;
     padding: 20px;
@@ -34,42 +44,103 @@ h3 {
 .fotogalerie-kritik,
 .fotogalerie-DIYer {
     width: 30%;
+    margin: 8px;
 }
 
 .foto-grafik {
-    width: 400px;
+    width: 500px;
+    float: left;
+    margin: 0 50px 50px 0px;
+}
+
+.grafik h3 {
+    clear: both;
 }
 
 .foto-kritik,
 .foto-DIYer {
-    width: 400px;
+    width: 500px;
+    float: left;
+    margin: 0 50px 50px 0;
+}
+
+.kritik h3 {
+    clear: both;
+}
+
+.DIYer h3 {
+    clear: both;
 }
 
 .foto-kontakt {
     width: 200px;
     border-radius: 50%;
-    margin: 0 30px 30px 0;
+    margin: 0 50px 30px 0;
+    float: left;
+}
+.kontakt p {
+    padding-right: 20%;
+    padding-bottom: none;
+}
+
+.grafik p,
+.kritik p,
+.DIYer p {
+    padding-right: 10%
 }
 
 ul {
     list-style: none;
 }
 
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #027ac1;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 20px 120px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #0795de;
+}
+
 section {
-    padding: 80px;
+    padding: 80px 15%;
+    overflow: auto;
 }
 
 .hlavicka {
     background-image: url(pictures/sekce_uvod/2.png);
-    padding: 150px 30px;
+    padding: 250px 30px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
 }
 
-
-#ikony {
-    width: 100px;
-    display: flex;
+.ikony {
+    margin-top: 10px;
+    padding-top: none;
+}
+.ikony img {
+    width: 80px;
     margin: 20px;
+    float: left;
+}
+
+.ikony a {
+    text-decoration: none;
 }
