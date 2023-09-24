@@ -9,8 +9,8 @@ body {
 
 h1 {
     font-size: 80px;
-    padding: 0 0 20px 260px;
-    color: white;
+    padding: 0 0 20px 290px;
+    color: #F8F8F8;
     margin: 0;
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
 }
@@ -132,8 +132,8 @@ section {
 }
 
 .hlavicka {
-    background-image: url(pictures/sekce_uvod/2.png);
-    padding: 250px 30px;
+    background-image: url(pictures/sekce_uvod/cv_uvodfin1.gif);
+    padding: 450px 30px 30px 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -149,4 +149,8 @@ section {
 
 .ikony a {
     text-decoration: none;
+}
+
+.dovetek {
+    padding: 0 223px 80px 290px;
 }
