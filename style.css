@@ -2,7 +2,7 @@ body {
     color: #282425;
     background-color: #ffff;
     font-family: 'Maven Pro', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.5;
     margin: 0;
 }
@@ -23,8 +23,9 @@ h2 {
 
 h3 {
     font-size: 50px;
-    margin-top: 120px;
+    margin-top: 170px;
     margin-bottom: 30px;
+    padding: 30px 0 0 0;
 }
 
 h4 {
@@ -34,10 +35,13 @@ h4 {
 }
 
 .paticka {
-    background-color: #027ac1;
+    background-color: #1E5BAB;
     color: white;
     text-align: center;
     padding: 20px;
+}
+.obecne {
+    padding-bottom: 0;
 }
 
 .fotogalerie-grafik,
@@ -53,7 +57,10 @@ h4 {
     margin: 0 50px 50px 0px;
 }
 
-.grafik h3 {
+.grafik h3,
+.kritik h3,
+.DIYer h3
+.kontakt h3 {
     clear: both;
 }
 
@@ -80,12 +87,12 @@ h4 {
 }
 .kontakt p {
     padding-right: 20%;
-    padding-bottom: none;
 }
 
 .grafik p,
 .kritik p,
-.DIYer p {
+.DIYer p,
+.obecne p {
     padding-right: 10%
 }
 
@@ -97,7 +104,7 @@ ul {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #027ac1;
+    background-color: white;
 }
 
 .menu li {
@@ -106,16 +113,17 @@ ul {
 
 .menu a {
     display: inline-block;
-    color: white;
+    color: #1E5BAB;
     text-decoration: none;
     font-size: 23px;
+    font-weight: bold;
     padding: 20px 120px;
 }
 
 .menu a:hover,
 .menu a:focus,
 .menu a:active {
-    background-color: #0795de;
+    background-color: #F8F8F8;
 }
 
 section {
@@ -131,13 +139,11 @@ section {
     background-size: cover;
 }
 
+
+
 .ikony {
-    margin-top: 10px;
-    padding-top: none;
-}
-.ikony img {
     width: 80px;
-    margin: 20px;
+    margin: 0 10px 50px 10px;
     float: left;
 }
 
